@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "name": "Clothing Store",
+    "picture": "images/clothing.jpeg",
+    "location": "Lisco, Alabama"
+  },
+  {
+    "id": 1,
+    "name": "Shoe Store",
+    "picture": "images/shoeStore.jpeg",
+    "location": "Tooleville, West Virginia"
+  },
+  {
+    "id": 2,
+    "name": "Furniture",
+    "picture": "images/furniture store.jpeg",
+    "location": "Freeburn, Idaho"
+  },
+  {
+    "id": 3,
+    "name": "Beauty Products",
+    "picture": "images/beauty products.jpeg",
+    "location": "Troy, Michigan"
+  }
+]
