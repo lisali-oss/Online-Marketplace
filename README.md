@@ -5,6 +5,7 @@ Ethereum 2018 Developer Program Final Project – Online-Marketplace
 What does the project do?
 
 The project is developed on a VirtualBox VM running Ubuntu 16.04.
+
 You may
 •	Add/Remove Admins
 •	Add/Remove Store Owners
