@@ -9,14 +9,20 @@ The project is developed on a VirtualBox VM running Ubuntu 16.04.
 You may
 
 •	Add/Remove Admins
+
 •	Add/Remove Store Owners
+
 •	Open/Close Stores
+
 •	Get Store/StoreOwners
+
 •	ChangeStoreowners
 •	etc.
 
 How to set it up?
+
 To interact with this Dapp, you will need the following tools...
+
 •	npm    Node.js
 •	Ganache:  npm install -g ganache-cli
 •	Truffle:  npm install -g truffle
@@ -24,6 +30,7 @@ To interact with this Dapp, you will need the following tools...
 •	Metamask
 
 Smart Contract Migration
+
 truffle migrate --reset
 Smart Contract Testing
 truffle test 
