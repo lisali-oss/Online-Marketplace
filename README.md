@@ -7,6 +7,7 @@ What does the project do?
 The project is developed on a VirtualBox VM running Ubuntu 16.04.
 
 You may
+
 •	Add/Remove Admins
 •	Add/Remove Store Owners
 •	Open/Close Stores
