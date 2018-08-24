@@ -1,7 +1,9 @@
 Lisa's Oneline Marketplace
 
 Ethereum 2018 Developer Program Final Project – Online-Marketplace
+
 What does the project do?
+
 This is an Ethereum Blockchain Dapp for an online marketplace. 
 The project is developed on a VirtualBox VM running Ubuntu 16.04.
 You may
