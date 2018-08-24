@@ -24,16 +24,23 @@ How to set it up?
 To interact with this Dapp, you will need the following tools...
 
 •	npm    Node.js
+
 •	Ganache:  npm install -g ganache-cli
+
 •	Truffle:  npm install -g truffle
+
 •	All npm dependencies for the Dapp
+
 •	Metamask
 
 Smart Contract Migration
 
 truffle migrate --reset
+
 Smart Contract Testing
+
 truffle test 
+
 Running the Dapp
 
 npm install 
