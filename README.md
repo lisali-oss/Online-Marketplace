@@ -10,6 +10,7 @@ You may
 •	Get Store/StoreOwners
 •	ChangeStoreowners
 •	etc.
+
 How to set it up?
 To interact with this Dapp, you will need the following tools...
 •	npm    Node.js
@@ -18,16 +19,13 @@ To interact with this Dapp, you will need the following tools...
 •	All npm dependencies for the Dapp
 •	Metamask
 
-
 Smart Contract Migration
 truffle migrate --reset
 Smart Contract Testing
-
 truffle test 
 Running the Dapp
 
-npm install
-
+npm install 
 npm run dev
 Interacting with the Dapp
 1.	Copy the seed phrase from the ganache-gui
