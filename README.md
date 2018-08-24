@@ -44,7 +44,9 @@ truffle test
 Running the Dapp
 
 npm install 
+
 npm run dev
+
 Interacting with the Dapp
 1.	Copy the seed phrase from the ganache-gui
 2.	Open Metamask in your browser and make sure the localhost:8545 network is selected
