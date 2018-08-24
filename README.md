@@ -35,7 +35,7 @@ Interacting with the Dapp
 5.	If you are connected you should see "Admin" with an address, balance, and block number in the top right corner.
 6.	From here you are an admin. go to the "Add/Remove Store Owners" tab. Copy an account address from the ganache terminal, paste it into the text box, and click "Add". Metamask should prompt you for the transaction, hit "Add".
 7.	You should see the UI update with a new Store Owner. Copy the private key for this store owner from the ganache terminal, open Metamask, and import the account using the private key.
-8.	You should see the UI change from an Admin view to a Store Owner view. Open 2 or 3 new stores and name them whatever you wish.
+8.	You should see the UI change from an Admin view to a Store Owner view. 
 
 Notes: deployed to Rinkeby through MetaMask with Ethereum address: 0x1057600E79D33f7c0ED05842c09e63D8c90b51D5
 
