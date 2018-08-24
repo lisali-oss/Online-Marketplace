@@ -17,18 +17,17 @@ To interact with this Dapp, you will need the following tools...
 •	Truffle:  npm install -g truffle
 •	All npm dependencies for the Dapp
 •	Metamask
+
+
 Smart Contract Migration
-# Make sure you are in the marketplace directory
-# Run this:
 truffle migrate --reset
 Smart Contract Testing
-# Move to the test directory
-# Launch the tests
+
 truffle test 
 Running the Dapp
-# Install dependencies
+
 npm install
-# Run Dapp 
+
 npm run dev
 Interacting with the Dapp
 1.	Copy the seed phrase from the ganache-gui
