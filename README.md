@@ -1,4 +1,4 @@
-Lisa's Oneline Marketplace
+Lisa's Online Marketplace
 
 Ethereum 2018 Developer Program Final Project – Online-Marketplace
 
