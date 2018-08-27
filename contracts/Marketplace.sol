@@ -1,9 +1,10 @@
 pragma solidity ^0.4.22;
 
+import "./Ownable.sol";
 
 // restrict function access so that only specific addresses are permitted to execute functions.
 
-contract Marketplace {
+contract Marketplace is Ownable {
     
     
     
@@ -155,6 +156,5 @@ contract Marketplace {
     }
     
 }
-
 
 
