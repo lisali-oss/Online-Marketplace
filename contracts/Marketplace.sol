@@ -2,7 +2,11 @@ pragma solidity ^0.4.22;
 
 import "./Ownable.sol";
 
-// restrict function access so that only specific addresses are permitted to execute functions.
+/**
+ * @title Marketplace
+ * @dev The Marketplace contract provides an online marketplace
+ * service of stores.
+ */
 
 contract Marketplace is Ownable {
     
@@ -70,7 +74,9 @@ contract Marketplace is Ownable {
     }
    
    
-    // Function to make sure the specified address is currently an admin.
+      /** @dev Function to get current admin address.
+      * @param _address Address of an Ethereum account.
+      */   
       
     function CurrentAdmin(address _address) view public returns (bool) {
         return admins[_address];
@@ -83,7 +89,9 @@ contract Marketplace is Ownable {
     }
 
 
-   // Function to return an array of admins.
+   /** @dev Function to return an array of storeOwners.
+      * @return AllstoreOwner An array of storeOwners addresses.
+      */
      
     function getAdmins() public view returns(address[] adminAddresses) {
         return Alladmins;
@@ -133,8 +141,9 @@ contract Marketplace is Ownable {
         return true;
     }
     
-    
-    // Function to allow a store owner to add a new Store    
+     /** @dev Function to allow a store owner to add a new Store.
+      * @param _name Name of the store.
+      */       
     function AddStore(string _name) public stopInEmergency {
         
         stores[storeId].storeID = storeId;
@@ -145,10 +154,18 @@ contract Marketplace is Ownable {
         storeId++;
        
     }
+   
+      /** @dev Function to get a Store.
+      * @param _storeId The ID of the store.
+      */  
     
     function GetStore(uint _storeId) public view returns(uint id, string name, address owner) {
         return(stores[_storeId].storeID, stores[_storeId].name, stores[_storeId].owner);
     }
+    
+      /** @dev Function to allow a store owner to ChangeStoreOwner.
+      * @param _storeId The ID of the store.
+      */   
     
     function ChangeStoreOwner(uint _storeId, address _newOwner) public stopInEmergency StoreOwnerOnly(_storeId) returns(bool changed) {
         stores[_storeId].owner = _newOwner;
